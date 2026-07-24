@@ -84,16 +84,14 @@ h1, h2, h3, h4, h5, h6 {
   --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
 }
 
+/* Base reset */
 html,
 body {
   overflow-x: clip;
-}
-
-body {
   background-color: var(--color-canvas);
   color: var(--color-text-primary);
   font-family: var(--font-body);
-  font-size: 17px;
+  font-size: var(--text-body);
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -107,7 +105,7 @@ body {
 
 /* Focus ring base — appears INSTANTLY, no fade */
 :focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid var(--color-focus);
   outline-offset: 2px;
 }
 
@@ -197,5 +195,19 @@ body {
 @media (max-width: 480px) {
   .text-display {
     font-size: 30px;
+  }
+}
+
+/* Grid container utility */
+.ls-container {
+  width: 100%;
+  max-width: var(--grid-max);
+  margin-inline: auto;
+  padding-inline: var(--grid-pad-desktop);
+}
+
+@media (max-width: 768px) {
+  .ls-container {
+    padding-inline: var(--grid-pad-mobile);
   }
 }
