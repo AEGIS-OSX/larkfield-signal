@@ -1,37 +1,37 @@
 {
   "logo": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872798548-logo.png",
+    "alt": "A minimalist, vector-style logo mark for Larkfield Signal. It uses a precise geometric signal icon in #1B4FD8 blue against the #F7F6F3 canvas, signaling institutional authority and data-driven precisi",
     "width": 1024,
     "height": 1024
   },
   "hero": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872594918-hero.png",
+    "alt": "A precise architectural model of a logistics warehouse on a paper-textured surface, using the #F7F6F3 and #E2DDD8 palette. The image signals institutional gravity and SKU-level precision through sharp",
     "width": 1920,
     "height": 1080
   },
   "feature_1": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872648431-feature_1.png",
+    "alt": "A top-down macro shot of a technical demand forecast printed on premium paper stock. It uses the locked palette and signals institutional precision through dense data visualization and Söhne Mono typo",
     "width": 800,
     "height": 600
   },
   "feature_2": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872621913-feature_2.png",
+    "alt": "A high-precision visualization of automated reorder points on an industrial monitor, signaling institutional reliability and data-driven operations. The image uses the locked palette of #F7F6F3 and #1",
     "width": 800,
     "height": 600
   },
   "feature_3": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872618543-feature_3.png",
+    "alt": "A top-down, high-precision photograph of a supply chain logistics map with a single blue acrylic marker, signaling ERP integration and node-level control. The image uses the #F7F6F3 canvas and #1B4FD8",
     "width": 800,
     "height": 600
   },
   "social_proof": {
-    "url": "",
-    "alt": "",
+    "url": "https://zkvkbpxrxnfynqqeytke.supabase.co/storage/v1/object/public/marketing-assets/larkfield-signal/cleo/1784872930313-social_proof.png",
+    "alt": "A minimalist, high-texture macro shot of premium paper stock with a tactile debossed line. It provides a sophisticated, institutional background for the social proof quote, signaling precision and phy",
     "width": 1200,
     "height": 800
   }
