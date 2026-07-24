@@ -41,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   --color-accent-hover: oklch(31.0% 0.175 264);  /* #1540B0 accent darkened */
   --color-accent-ink: oklch(100% 0.005 75);      /* white text on accent fill */
   --color-positive: oklch(42.5% 0.130 155);      /* #1A7A4A deep forest green */
-  --color-focus: oklch(38.2% 0.180 264);         /* same as accent for focus rings */
 
   /* Typography */
   --font-display: "Tiempos Headline", "Instrument Serif", Georgia, serif;
@@ -88,10 +87,13 @@ h1, h2, h3, h4, h5, h6 {
 html,
 body {
   overflow-x: clip;
+}
+
+body {
   background-color: var(--color-canvas);
   color: var(--color-text-primary);
   font-family: var(--font-body);
-  font-size: var(--text-body);
+  font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -105,7 +107,7 @@ body {
 
 /* Focus ring base — appears INSTANTLY, no fade */
 :focus-visible {
-  outline: 2px solid var(--color-focus);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
