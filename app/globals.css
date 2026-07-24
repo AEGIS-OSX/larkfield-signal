@@ -28,3 +28,109 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }
+
+/* === LARKFIELD SIGNAL DESIGN TOKENS === */
+:root {
+  /* Colors */
+  --color-canvas: oklch(97.2% 0.006 75);        /* #F7F6F3 warm off-white */
+  --color-surface: oklch(100% 0.005 75);         /* #FFFFFF tinted white */
+  --color-structure: oklch(88.5% 0.010 75);      /* #E2DDD8 warm stone */
+  --color-text-primary: oklch(13.5% 0.010 50);   /* #1A1714 near-black */
+  --color-text-secondary: oklch(44.8% 0.012 50); /* #6B6560 warm gray */
+  --color-accent: oklch(38.2% 0.180 264);        /* #1B4FD8 institutional blue */
+  --color-accent-hover: oklch(31.0% 0.175 264);  /* #1540B0 accent darkened */
+  --color-accent-ink: oklch(100% 0.005 75);      /* white text on accent fill */
+  --color-positive: oklch(42.5% 0.130 155);      /* #1A7A4A deep forest green */
+  --color-focus: oklch(38.2% 0.180 264);         /* same as accent for focus rings */
+
+  /* Typography */
+  --font-display: "Tiempos Headline", "Instrument Serif", Georgia, serif;
+  --font-body: "Söhne", "Geist", system-ui, sans-serif;
+  --font-mono: "Söhne Mono", "Geist Mono", "Courier New", monospace;
+
+  /* Type scale */
+  --text-label: 0.8125rem;   /* 13px */
+  --text-data: 0.9375rem;    /* 15px */
+  --text-body: 1.0625rem;    /* 17px */
+  --text-sub: 1.25rem;       /* 20px */
+  --text-h3: 1.5rem;         /* 24px */
+  --text-h2: 2.25rem;        /* 36px */
+  --text-display-s: 3rem;    /* 48px */
+  --text-display: 3.5rem;    /* 56px */
+
+  /* Spacing (8px base) */
+  --space-1: 0.5rem;    /* 8px */
+  --space-2: 1rem;      /* 16px */
+  --space-3: 1.5rem;    /* 24px */
+  --space-4: 2rem;      /* 32px */
+  --space-6: 3rem;      /* 48px */
+  --space-8: 4rem;      /* 64px */
+  --space-12: 6rem;     /* 96px */
+  --space-15: 7.5rem;   /* 120px */
+  --space-20: 10rem;    /* 160px */
+
+  /* Layout */
+  --grid-max: 80rem;         /* 1280px */
+  --grid-pad-desktop: 5rem;  /* 80px */
+  --grid-pad-mobile: 1.5rem; /* 24px */
+
+  /* Radii */
+  --radius-badge: 2px;
+  --radius-card: 4px;
+  --radius-btn: 0px;
+
+  /* Easing */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+/* Base reset */
+html, body {
+  overflow-x: clip;
+  background-color: var(--color-canvas);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Focus ring system */
+*:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Grid container utility */
+.ls-container {
+  width: 100%;
+  max-width: var(--grid-max);
+  margin-inline: auto;
+  padding-inline: var(--grid-pad-desktop);
+}
+
+@media (max-width: 768px) {
+  .ls-container {
+    padding-inline: var(--grid-pad-mobile);
+  }
+  :root {
+    --text-display: 2.5rem;    /* 40px on mobile */
+    --text-display-s: 2rem;    /* 32px on mobile */
+    --text-h2: 1.75rem;        /* 28px on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --text-display: 2rem;      /* 32px on small mobile */
+  }
+}
