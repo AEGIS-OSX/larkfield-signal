@@ -2,39 +2,39 @@
   "hero": {
     "headline": "Your Excel model is wrong 23% of the time.",
     "subheadline": "Larkfield Signal delivers SKU-level demand forecasting with a 12.4% MAPE benchmark. Stop guessing and start ordering against real demand.",
-    "ctaPrimary": "Book a Demo",
-    "ctaSecondary": "See how it works"
+    "primary_cta": "Book a Demo",
+    "secondary_cta": "See how it works"
   },
-  "feature1": {
+  "feature_1": {
     "label": "PRECISION",
     "headline": "Forecast every SKU, not just the top 10%.",
     "body": "Most retailers forecast at the category level and hope for the best. Larkfield Signal analyzes individual SKU performance across every location to predict exact demand. Reduce overstock by 18% while maintaining 99% shelf availability.",
-    "dataCallout": "12.4% MAPE",
-    "dataLabel": "vs. 23.1% industry median"
+    "data_callout": "12.4% MAPE",
+    "data_label": "vs. 23.1% industry median"
   },
-  "feature2": {
+  "feature_2": {
     "label": "AUTOMATION",
     "headline": "Reorder points that move with the market.",
     "body": "Static reorder points are the primary cause of stockouts. Our engine recalculates thresholds daily based on lead times, supplier reliability, and forecasted spikes. Review drafted purchase orders in seconds and push them to your ERP.",
-    "workflowStep1": "Forecast generated",
-    "workflowStep2": "Reorder threshold crossed",
-    "workflowStep3": "Purchase order drafted"
+    "workflow_step_1": "Forecast generated",
+    "workflow_step_2": "Reorder threshold crossed",
+    "workflow_step_3": "Purchase order drafted"
   },
-  "feature3": {
+  "feature_3": {
     "label": "CONNECTIVITY",
     "headline": "Connects to your existing stack. No rip-and-replace.",
     "body": "Larkfield Signal is not another silo. We sync directly with your system of record to pull historical sales and push inventory signals. Live in 14 days with native support for the industry's leading ERPs.",
-    "integrationList": "NetSuite, SAP, Microsoft Dynamics, Oracle"
+    "integration_list": "NetSuite, SAP, Microsoft Dynamics, Oracle"
   },
-  "socialProof": {
+  "social_proof": {
     "quote": "Larkfield Signal identified a 15% overstock in our seasonal knitwear three weeks before our manual model caught it. We cleared the inventory at full margin instead of a fire sale.",
     "attribution": "VP of Operations, Mid-Market Apparel Group"
   },
   "security": {
-    "badgeLabel": "ENTERPRISE READY",
+    "badge_label": "ENTERPRISE READY",
     "description": "SOC 2 Type II certified. Data encrypted at rest and in transit. Hosted on sovereign infrastructure with full audit logging."
   },
-  "finalCta": {
+  "final_cta": {
     "headline": "Stop losing margin to bad data.",
     "subheadline": "Join the retailers using Larkfield Signal to stabilize their supply chain.",
     "button": "Book a Demo"
