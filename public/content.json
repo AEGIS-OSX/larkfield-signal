@@ -1,43 +1,51 @@
 {
-  "headline": { "text": "Your Excel model is wrong 23% of the time." },
-  "subheadline": { "text": "Larkfield Signal delivers SKU-level demand forecasting with a 12.4% MAPE benchmark. Stop guessing and start ordering against real demand." },
-  "cta_primary": { "text": "Book a Demo" },
-  "cta_secondary": { "text": "See how it works" },
-
-  "feature_1_label": { "text": "PRECISION" },
-  "feature_1_title": { "text": "Forecast every SKU, not just the top 10%." },
-  "feature_1_body": { "text": "Most retailers forecast at the category level and hope for the best. Larkfield Signal analyzes individual SKU performance across every location to predict exact demand. Reduce overstock by 18% while maintaining 99% shelf availability." },
-  "feature_1_data_callout": { "text": "12.4% MAPE" },
-  "feature_1_data_label": { "text": "vs. 23.1% industry median" },
-
-  "feature_2_label": { "text": "AUTOMATION" },
-  "feature_2_title": { "text": "Reorder points that move with the market." },
-  "feature_2_body": { "text": "Static reorder points are the primary cause of stockouts. Our engine recalculates thresholds daily based on lead times, supplier reliability, and forecasted spikes. Review drafted purchase orders in seconds and push them to your ERP." },
-  "feature_2_step_1": { "text": "Forecast generated" },
-  "feature_2_step_2": { "text": "Reorder threshold crossed" },
-  "feature_2_step_3": { "text": "Purchase order drafted" },
-
-  "feature_3_label": { "text": "CONNECTIVITY" },
-  "feature_3_title": { "text": "Connects to your existing stack. No rip-and-replace." },
-  "feature_3_body": { "text": "Larkfield Signal is not another silo. We sync directly with your system of record to pull historical sales and push inventory signals. Live in 14 days with native support for the industry's leading ERPs." },
-  "feature_3_integrations": { "text": "NetSuite, SAP, Microsoft Dynamics, Oracle" },
-
-  "security_badge_label": { "text": "ENTERPRISE READY" },
-  "security_description": { "text": "SOC 2 Type II certified. Data encrypted at rest and in transit. Hosted on sovereign infrastructure with full audit logging." },
-
-  "social_proof_quote": { "text": "Larkfield Signal identified a 15% overstock in our seasonal knitwear three weeks before our manual model caught it. We cleared the inventory at full margin instead of a fire sale." },
-  "social_proof_attribution": { "text": "VP of Operations, Mid-Market Apparel Group" },
-
-  "cta_final_headline": { "text": "Stop losing margin to bad data." },
-  "cta_final_subheadline": { "text": "Join the retailers using Larkfield Signal to stabilize their supply chain." },
-  "cta_final_button": { "text": "Book a Demo" },
-
-  "footer_copyright": { "text": "© 2026 Larkfield Signal. All rights reserved." },
-  "footer_tagline": { "text": "Institutional precision for retail operations." },
-  "footer_link_privacy": { "text": "Privacy Policy" },
-  "footer_link_terms": { "text": "Terms of Service" },
-  "footer_link_security": { "text": "Security Overview" },
-
-  "meta_title": { "text": "Larkfield Signal | SKU-Level Demand Forecasting for Retail" },
-  "meta_description": { "text": "Reduce overstock and eliminate stockouts with 12.4% MAPE accuracy. Larkfield Signal integrates with NetSuite, SAP, and Dynamics to automate your reorder points." }
+  "hero": {
+    "headline": "Your Excel model is wrong 23% of the time.",
+    "subheadline": "Larkfield Signal delivers SKU-level demand forecasting with a 12.4% MAPE benchmark. Stop guessing and start ordering against real demand.",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "See how it works"
+  },
+  "feature1": {
+    "label": "PRECISION",
+    "headline": "Forecast every SKU, not just the top 10%.",
+    "body": "Most retailers forecast at the category level and hope for the best. Larkfield Signal analyzes individual SKU performance across every location to predict exact demand. Reduce overstock by 18% while maintaining 99% shelf availability.",
+    "dataCallout": "12.4% MAPE",
+    "dataLabel": "vs. 23.1% industry median"
+  },
+  "feature2": {
+    "label": "AUTOMATION",
+    "headline": "Reorder points that move with the market.",
+    "body": "Static reorder points are the primary cause of stockouts. Our engine recalculates thresholds daily based on lead times, supplier reliability, and forecasted spikes. Review drafted purchase orders in seconds and push them to your ERP.",
+    "workflowStep1": "Forecast generated",
+    "workflowStep2": "Reorder threshold crossed",
+    "workflowStep3": "Purchase order drafted"
+  },
+  "feature3": {
+    "label": "CONNECTIVITY",
+    "headline": "Connects to your existing stack. No rip-and-replace.",
+    "body": "Larkfield Signal is not another silo. We sync directly with your system of record to pull historical sales and push inventory signals. Live in 14 days with native support for the industry's leading ERPs.",
+    "integrationList": "NetSuite, SAP, Microsoft Dynamics, Oracle"
+  },
+  "socialProof": {
+    "quote": "Larkfield Signal identified a 15% overstock in our seasonal knitwear three weeks before our manual model caught it. We cleared the inventory at full margin instead of a fire sale.",
+    "attribution": "VP of Operations, Mid-Market Apparel Group"
+  },
+  "security": {
+    "badgeLabel": "ENTERPRISE READY",
+    "description": "SOC 2 Type II certified. Data encrypted at rest and in transit. Hosted on sovereign infrastructure with full audit logging."
+  },
+  "finalCta": {
+    "headline": "Stop losing margin to bad data.",
+    "subheadline": "Join the retailers using Larkfield Signal to stabilize their supply chain.",
+    "button": "Book a Demo"
+  },
+  "footer": {
+    "copyright": "© 2026 Larkfield Signal. All rights reserved.",
+    "links": "Privacy Policy, Terms of Service, Security Overview",
+    "tagline": "Institutional precision for retail operations."
+  },
+  "meta": {
+    "title": "Larkfield Signal | SKU-Level Demand Forecasting for Retail",
+    "description": "Reduce overstock and eliminate stockouts with 12.4% MAPE accuracy. Larkfield Signal integrates with NetSuite, SAP, and Dynamics to automate your reorder points."
+  }
 }
