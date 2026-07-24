@@ -84,53 +84,118 @@ h1, h2, h3, h4, h5, h6 {
   --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
 }
 
-/* Base reset */
-html, body {
+html,
+body {
   overflow-x: clip;
+}
+
+body {
   background-color: var(--color-canvas);
   color: var(--color-text-primary);
   font-family: var(--font-body);
-  font-size: var(--text-body);
+  font-size: 17px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Focus ring system */
-*:focus-visible {
-  outline: 2px solid var(--color-focus);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Focus ring base — appears INSTANTLY, no fade */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
 }
 
-/* Grid container utility */
-.ls-container {
-  width: 100%;
-  max-width: var(--grid-max);
+/* Type scale */
+.text-display {
+  font-family: var(--font-display);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.text-h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+
+.text-h3 {
+  font-family: var(--font-body);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.text-body {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.text-mono {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.text-label {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Layout container */
+.container {
+  max-width: 1280px;
   margin-inline: auto;
-  padding-inline: var(--grid-pad-desktop);
+  padding-inline: 80px;
 }
 
 @media (max-width: 768px) {
-  .ls-container {
-    padding-inline: var(--grid-pad-mobile);
+  .container {
+    padding-inline: 24px;
   }
-  :root {
-    --text-display: 2.5rem;    /* 40px on mobile */
-    --text-display-s: 2rem;    /* 32px on mobile */
-    --text-h2: 1.75rem;        /* 28px on mobile */
+
+  .text-display {
+    font-size: 36px;
+  }
+
+  .text-h2 {
+    font-size: 28px;
   }
 }
 
 @media (max-width: 480px) {
-  :root {
-    --text-display: 2rem;      /* 32px on small mobile */
+  .text-display {
+    font-size: 30px;
   }
 }
