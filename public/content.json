@@ -1,28 +1,80 @@
 {
-  "headline": { "text": "Your Excel model is wrong 23% of the time." },
-  "subheadline": { "text": "Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%. No PhD required." },
-  "cta_primary": { "text": "Start Free Trial" },
-  "cta_secondary": { "text": "See How It Works" },
-  "feature_1_title": { "text": "SKU-Level Forecasting" },
-  "feature_1_body": { "text": "Stop guessing. Our models predict demand at the individual SKU level, accounting for seasonality, promotions, and external signals." },
-  "feature_2_title": { "text": "Real-Time Alerts" },
-  "feature_2_body": { "text": "Get notified the moment your forecast deviates from actuals. Catch problems before they become write-downs." },
-  "feature_3_title": { "text": "Excel Integration" },
-  "feature_3_body": { "text": "Export clean forecasts directly into your existing spreadsheets. No new dashboards to learn, no IT project required." },
-  "social_proof_headline": { "text": "Trusted by 200+ Retail Teams" },
-  "social_proof_body": { "text": "From boutique shops to national chains, teams rely on Larkfield Signal to keep shelves stocked and capital working." },
-  "security_headline": { "text": "Enterprise-Grade Security" },
-  "security_body": { "text": "SOC 2 Type II certified. Your data is encrypted at rest and in transit. We never train models on your proprietary data." },
-  "final_cta_headline": { "text": "Ready to stop overstocking?" },
-  "final_cta_body": { "text": "Join 200+ retailers who cut waste and capture more sales with SKU-level forecasting." },
-  "final_cta_button": { "text": "Get Started Free" },
-  "footer_tagline": { "text": "Larkfield Signal" },
-  "footer_copyright": { "text": "© 2026 Larkfield Signal. All rights reserved." },
-  "meta_title": { "text": "Larkfield Signal — SKU-Level Demand Forecasting" },
-  "meta_description": { "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%." },
-  "meta_og_title": { "text": "Larkfield Signal — SKU-Level Demand Forecasting" },
-  "meta_og_description": { "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%." },
-  "meta_twitter_title": { "text": "Larkfield Signal — SKU-Level Demand Forecasting" },
-  "meta_twitter_description": { "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%." },
-  "meta_twitter_card": { "text": "summary_large_image" }
+  "headline": {
+    "text": "Your Excel model is wrong 23% of the time. [silence-probe]"
+  },
+  "subheadline": {
+    "text": "Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%. No PhD required."
+  },
+  "cta_primary": {
+    "text": "Start Free Trial"
+  },
+  "cta_secondary": {
+    "text": "See How It Works"
+  },
+  "feature_1_title": {
+    "text": "SKU-Level Forecasting"
+  },
+  "feature_1_body": {
+    "text": "Stop guessing. Our models predict demand at the individual SKU level, accounting for seasonality, promotions, and external signals."
+  },
+  "feature_2_title": {
+    "text": "Real-Time Alerts"
+  },
+  "feature_2_body": {
+    "text": "Get notified the moment your forecast deviates from actuals. Catch problems before they become write-downs."
+  },
+  "feature_3_title": {
+    "text": "Excel Integration"
+  },
+  "feature_3_body": {
+    "text": "Export clean forecasts directly into your existing spreadsheets. No new dashboards to learn, no IT project required."
+  },
+  "social_proof_headline": {
+    "text": "Trusted by 200+ Retail Teams"
+  },
+  "social_proof_body": {
+    "text": "From boutique shops to national chains, teams rely on Larkfield Signal to keep shelves stocked and capital working."
+  },
+  "security_headline": {
+    "text": "Enterprise-Grade Security"
+  },
+  "security_body": {
+    "text": "SOC 2 Type II certified. Your data is encrypted at rest and in transit. We never train models on your proprietary data."
+  },
+  "final_cta_headline": {
+    "text": "Ready to stop overstocking?"
+  },
+  "final_cta_body": {
+    "text": "Join 200+ retailers who cut waste and capture more sales with SKU-level forecasting."
+  },
+  "final_cta_button": {
+    "text": "Get Started Free"
+  },
+  "footer_tagline": {
+    "text": "Larkfield Signal"
+  },
+  "footer_copyright": {
+    "text": "© 2026 Larkfield Signal. All rights reserved."
+  },
+  "meta_title": {
+    "text": "Larkfield Signal — SKU-Level Demand Forecasting"
+  },
+  "meta_description": {
+    "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%."
+  },
+  "meta_og_title": {
+    "text": "Larkfield Signal — SKU-Level Demand Forecasting"
+  },
+  "meta_og_description": {
+    "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%."
+  },
+  "meta_twitter_title": {
+    "text": "Larkfield Signal — SKU-Level Demand Forecasting"
+  },
+  "meta_twitter_description": {
+    "text": "Stop overstocking. Larkfield Signal delivers SKU-level demand forecasting that cuts overstock by 34% and stockouts by 28%."
+  },
+  "meta_twitter_card": {
+    "text": "summary_large_image"
+  }
 }
